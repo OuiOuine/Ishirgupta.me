@@ -1,9 +1,5 @@
 <!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
 	<head>
 		<title>Ishir Gupta Portfolio</title>
@@ -11,6 +7,30 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			@keyframes dotsAnimation {
+				0% { content: '.    '; }
+				50% { content: '. .  '; }
+				100% { content: '. . .'; }
+			}
+			.animated-dots::after {
+            	content: '';
+            	animation: dotsAnimation 1s infinite;
+            	display: inline-block;
+            	width: 30px;
+        	}
+			#intro img {
+				border-radius: 50%;
+				width: 150px;
+				height: 150px;
+				margin-right: 30px;
+				vertical-align: middle;
+			}
+			#intro div {
+				display: flex;
+				align-items: center;
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -19,9 +39,11 @@
 
 				<!-- Intro -->
 					<div id="intro">
-						<h1>Ishir Gupta<br />
-						Portfolio</h1>
-						<p>A High School Student skilled in 3D printing, building robots, and CAD. <!--<a href="https://twitter.com/ajlkn">@ajlkn--></a>
+						<div style="display: flex; align-items: center;">
+							<img src="C:\Users\Ishir Gupta\Pictures\Screenshots\pfp2.png" alt="Profile Picture" />
+							<h1>Hi I'm Ishir!<br /></h1>
+						</div>
+						<!--<p>Here's some of the stuff I have worked on (or am still working on)<span class="animated-dots"></span>-->
 						</p>
 						<ul class="actions">
 							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
@@ -42,28 +64,15 @@
 						</ul>
 						<ul class="icons">
 							<!--<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>-->
-							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>-->
+							<li><a href="https://www.linkedin.com/in/ishirgupta/" class="icon brands alt fa-linkedin"><span class="label">linkedin</span></a></li>
+							<li><a href="https://github.com/OuiOuine" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="https://x.com/IshirTheFish" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
 						</ul>
 					</nav>
 
 				<!-- Main -->
 					<div id="main">
-
-						<!-- Featured Post -->
-							<article class="post featured">
-								
-								<header class="major">
-									<span class="date">Feb 2024</span>
-									<!--<h2><a href="#">About Me<br />
-									</a></h2>-->
-								</header>	
-								
-								<!--<ul class="actions special">
-									<li><a href="#" class="button large">Full Story</a></li>
-								</ul>-->
-							</article>
 
 						<!-- Posts -->
 							<section class="posts">
@@ -118,37 +127,36 @@
 									</header>
 									<a href="#" class="image fit"><img src="images/rocketEngine.png" alt="" /></a>
 									
-									<p><strong><i>What?</i></strong> Built  a custom rocket using the same oxidizer as <strong>NASA's</strong> twin SLS solid rocket boosters (Ammonium Perchlorate). </b></p>
+									<p><strong><i>What?</i></strong> Built  a custom rocket using the same oxidizer as <strong>NASA's</strong> twin SLS solid rocket boosters (Ammonium perchlorate). </b></p>
 									<p><strong><i>How?</i></strong> Designed multiple types of nose cones and fins in <u>Onshape</u> and assembled with PVC body tube and nozzle. </p>
-									<p><strong><i>Results? </i></strong> Ignition of rocket engine with a range of Ammonium Perchlorate fuel gains to achieve a combustion lasting up to <strong>28 seconds</strong>.</p>
+									<p><strong><i>Results? </i></strong> Ignite rocket engine into the ground and combustion lasted a long <strong>28 seconds</strong> despite the low amount of fuel grains added.</p>
 									<!--<ul class="actions special">
 										<li><a href="#" class="button">Full Story</a></li>
 									</ul>-->
 								</article>
-								<!--<article>
-									<header>
-										<span class="date">April 11, 2017</span>
-										<h2><a href="#">Odio magna<br />
-										sed consectetur</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>-->
-									<!--<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>-->
-								<!--</article>
 								<article>
 									<header>
-										<span class="date">April 7, 2017</span>
-										<h2><a href="#">Augue lorem<br />
-										primis vestibulum</a></h2>
+										<span class="date">May 2024 - Present</span>
+										<h2><a href="#">Open World Video Game<br />
+										</a></h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>-->
-									<!--<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>-->
-								<!--</article>-->
+									<a href="#" class="image fit"><img src="C:\Users\Ishir Gupta\Downloads\VideoGameDeer.png" alt="" /></a>
+									<p><strong><i>What?</i></strong> Coded an open world first person shooter style game with the goal of fighting off enemy deer. </b></p>
+									<p><strong><i>How?</i></strong> Used <strong> Unity</strong> and <strong>VScode</strong> to create the game structure as well as public assets on the <strong>Unity Asset Store</strong> for 3D models.</p>
+									<p><strong><i>Results? </i></strong> Movement for player and NPC's are fully functional as well as an enemy AI with different objectives based on distance from player. Proper game loop, health system and UI still in progress...</p>
+									
+								</article>
+								<article>
+									<header>
+										<span class="date">August 12, 2024</span>
+										<h2><a href="#">Nuclear Fusor<br />
+										</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="C:\Users\Ishir Gupta\Downloads\NucFusor.png" alt="" /></a>
+									<p><strong><i>What?</i></strong> Assisted a college student Hudzah with building a Farnsworth Fusion Reactor in his dorm. </b></p>
+									<p><strong><i>How?</i></strong> Helped with soldering wires, debugging arduino code, jerry-rigging a battery pack, and completely fried a transformer....</p>
+									<p><strong><i>Results? </i></strong> Hudzah succesfully achieved fusion! Check out  <a href="https://x.com/hud_zah" target="_blank">@hud_zah</a> on twitter for more details! </p>
+								</article>
 							</section>
 
 						<!-- Footer -->
@@ -198,10 +206,6 @@
 								</p>
 							</section>
 							<section>
-								<h3>Phone</h3>
-								<p><a href="#">(408) 442-0450</a></p>
-							</section>
-							<section>
 								<h3>Email</h3>
 								<p><a href="#">ishirgupta6060@gmail.com</a></p>
 							</section>
@@ -209,9 +213,10 @@
 								<h3>Social</h3>
 								<ul class="icons alt">
 									<!--<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>-->
-									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>-->
+									<li><a href="https://www.linkedin.com/in/ishirgupta/" class="icon brands alt fa-linkedin"><span class="label">linkedin</span></a></li>
+									<li><a href="https://github.com/OuiOuine" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="https://x.com/IshirTheFish" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
 								</ul>
 							</section>
 						</section>
